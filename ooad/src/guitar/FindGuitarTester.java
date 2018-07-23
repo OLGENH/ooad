@@ -29,7 +29,7 @@ public static void main(String[] args) {
 
 	private static void initializeInventory(Inventory inventory) {
 		GuitarSpec guitar1 = new GuitarSpec( Builder.FENDER, Type.ELECTRIC, "Stratocastor", Wood.ALDER, Wood.ALDER, 12);
-		inventory.addGuitar("V95693", 1499.95, guitar1);
-		inventory.addGuitar("V9512", 1549.95, guitar1);
+		inventory.addInstrument("V95693", 1499.95, guitar1);
+		inventory.addInstrument("V9512", 1549.95, guitar1);
 	}
 }
